@@ -11,8 +11,6 @@ st.set_page_config(
 
 st.markdown("# :orange[Instant Text Repeater]")
 
-st.write("<h5 style='line-height:28px;color:#F08080;'>Easily repeat any text multiple times with our Text Repeater Tool. Whether you need to generate repeated text for testing, formatting, or fun, this tool will help you do it quickly and efficiently.</h5>",unsafe_allow_html=True)
-
 text=st.text_input(label="Text to repeat",help="Text you want to repeat")
 
 times=st.number_input(label="Repetitions",help="Number of Repetitions",min_value=1)
