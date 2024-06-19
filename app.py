@@ -11,7 +11,7 @@ st.set_page_config(
 
 st.markdown("# :orange[Instant Text Repeater]")
 
-text=st.text_input(label="Text to repeat",help="Text you want to repeat")
+text=st.text_areauy(label="Text to repeat",help="Text you want to repeat")
 
 times=st.number_input(label="Repetitions",help="Number of Repetitions",min_value=1)
 
